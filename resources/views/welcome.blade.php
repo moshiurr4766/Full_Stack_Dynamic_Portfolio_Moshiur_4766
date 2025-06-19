@@ -18,11 +18,11 @@
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn" id="change">Hire Me</a>
             </nav>
             <div class="hero">
                 <div class="hero-text">
-                    <h1>I'm Web Developer<br><span>From Bangladesh</span></h1>
+                    <h1 id= "innerText">I'm Web Developer<br><span>From Bangladesh</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vitae facilisis lorem, hendrerit nulla.</p>
                     <a href="#" class="btn">Learn more</a>
                 </div>

@@ -1,0 +1,21 @@
+
+composer global require laravel/installer
+
+
+
+composer update
+
+copy .env.example .env
+
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+
+//Git 
+
+git config --global user.name
+
+git config --global user.email

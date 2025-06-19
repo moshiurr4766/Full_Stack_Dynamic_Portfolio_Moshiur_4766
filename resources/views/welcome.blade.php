@@ -123,7 +123,7 @@
     </footer>
 
 
-    <script>
+<!-- <script>
 
     const menu = document.querySelector('.manu');
 
@@ -145,7 +145,10 @@
         }
     }
 
-</script>
+</script> -->
+
+<script src="assets/js/script.js"></script>
+
 
 </body>
 </html>

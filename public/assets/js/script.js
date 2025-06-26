@@ -1,13 +1,13 @@
 
-const menu = document.querySelector('.manu');
+// const menu = document.querySelector('.manu');
 
-if (menu.children.length > 0) {
-    for (let i = 0; i < menu.children.length; i++) {
-        menu.children[i].addEventListener('click', function (event) {
-            alert("Clicked");
-        });
-    }
-}
+// if (menu.children.length > 0) {
+//     for (let i = 0; i < menu.children.length; i++) {
+//         menu.children[i].addEventListener('click', function (event) {
+//             alert("Clicked");
+//         });
+//     }
+// }
 
 const menu1 = document.querySelector('.experience-grid');
 

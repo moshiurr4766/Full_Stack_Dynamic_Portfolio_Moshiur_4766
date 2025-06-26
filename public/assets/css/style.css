@@ -23,6 +23,7 @@ header {
 }
 
 nav {
+    background-color: whitw87;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,6 +49,19 @@ nav .btn {
     border-radius: 5px;
 }
 
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: white;
+    padding: 10px 10px;
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
 .hero {
     display: flex;
     align-items: center;
@@ -70,6 +84,7 @@ nav .btn {
 .section {
     padding: 4rem 0;
     text-align: center;
+    /* height: 100vh; */
 }
 
 .about-content {

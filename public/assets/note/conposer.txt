@@ -18,4 +18,4 @@ php artisan serve
 
 git config --global user.name
 
-git config --global user.email rahman15-4766@diu.edu.bd
+git config --global user.email 

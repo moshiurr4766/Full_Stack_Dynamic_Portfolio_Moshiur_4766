@@ -70,11 +70,15 @@ I believe in continuous learning, teamwork, and solving problems through smart c
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
                         </div>
                         <div class="card">
-                            <h4>Digital Marketing</h4>
+                            <h4>Modile App Designer</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
                         </div>
                         <div class="card">
                             <h4>Web Development</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
+                        </div>
+                        <div class="card">
+                            <h4>Digital Marketing</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
                         </div>
                     </div>
@@ -87,19 +91,18 @@ I believe in continuous learning, teamwork, and solving problems through smart c
                     <div class="experience-grid">
                         <div class="exp-item" onclick="showInfo('UI/UX Designer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>UI/UX Designer</strong><br>2015–2018</div>
 
-                            <div class="exp-item" onclick="showInfo('Modile App Designer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Modile App Designer</strong><br>2015–2018</div>
+                            <div class="exp-item" onclick="showInfo('Modile App Designer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcHxlbnwwfHwwfHx8MA%3D%3D')"><strong>Modile App Designer</strong><br>2015–2018</div>
 
-                                <div class="exp-item" onclick="showInfo('Web Developer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Web Developer</strong><br>2015–2018</div>
+                                <div class="exp-item" onclick="showInfo('Web Developer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://images.unsplash.com/photo-1608499296275-1f22c6391b88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFdlYiUyMERldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D')"><strong>Web Developer</strong><br>2015–2018</div>
 
-                                    <div class="exp-item" onclick="showInfo('Marketing','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Marketing</strong><br>2015–2018</div>
-
-
+                                    <div class="exp-item" onclick="showInfo('Marketing','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://images.unsplash.com/photo-1562577308-9e66f0c65ce5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D')"><strong>Marketing</strong><br>2015–2018</div>
 
 
 
 
-<!-- 
 
+
+                        <!-- 
                         <div class="exp-item"><strong>Modile App Designer</strong><br>2018–2020</div>
                         <div class="exp-item"><strong>Web Developer</strong><br>2020–2023</div>
                         <div class="exp-item"><strong>Marketing</strong><br>2020–Now</div> -->
@@ -116,9 +119,9 @@ I believe in continuous learning, teamwork, and solving problems through smart c
                 <div class="container">
                     <h2>My Portfolio</h2>
                     <div class="portfolio-grid">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 1">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 2">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 3">
+                        <img src="https://plus.unsplash.com/premium_photo-1741253392721-f1c955e97829?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE15JTIwUG9ydGZvbGlvfGVufDB8fDB8fHww" alt="Project 1">
+                        <img src="https://plus.unsplash.com/premium_photo-1696972235467-6820100b603f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fE15JTIwUG9ydGZvbGlvfGVufDB8fDB8fHww" alt="Project 2">
+                        <img src="https://images.unsplash.com/photo-1616873065098-9bdc6fda9c68?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fE15JTIwUG9ydGZvbGlvfGVufDB8fDB8fHww" alt="Project 3">
                     </div>
                 </div>
             </section>
@@ -150,10 +153,8 @@ I believe in continuous learning, teamwork, and solving problems through smart c
         <footer>
             <div class="container">
                 <p>&copy; 2025 Bangladesh , Dhaka</p>
-                <p>Email: moshiurr1555@example.com</p>
+                <p>Email: moshiurr1555@email.com</p>
             </div>
         </footer>
 
 @endsection
-
-

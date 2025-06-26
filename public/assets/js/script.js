@@ -9,21 +9,32 @@
 //     }
 // }
 
-const menu1 = document.querySelector('.experience-grid');
 
-if (menu1.children.length > 0) {
-    for (let i = 0; i < menu1.children.length; i++) {
-        menu1.children[i].addEventListener('click', function (event) {
-            alert("Clicked");
-        });
-    }
+
+
+// const btn1 = document.getElementById("change");
+
+// btn1.addEventListener("click", function () {
+//     const userName = document.getElementById("innerText");
+//     if (userName) {
+//         userName.innerHTML = "I'm a Full-Stack Developer<br><span>Based in Dhaka</span>";
+//     }
+// });
+
+
+
+
+function showInfo(title,discription,imgUrl){
+    const displayInfo = document.getElementById("infoDisplay");
+    displayInfo.innerHTML=`
+    <div class="exp-item container">
+        <img src="${imgUrl}" >
+        <h2>${title}</h2>
+        <br>
+        <p>${discription}</p>
+    </div>
+    
+    `;
 }
-const btn1 = document.getElementById("change");
 
-btn1.addEventListener("click", function () {
-    const userName = document.getElementById("innerText");
-    if (userName) {
-        userName.innerHTML = "I'm a Full-Stack Developer<br><span>Based in Dhaka</span>";
-    }
-});
 

@@ -8,11 +8,11 @@
 
     <!-- Hero Section -->
     <header>
-            <div class="container">
+            <div class="container" id="Home">
                 <nav class="fixed-nav">
                     <div class="logo">🔴</div>
                     <ul class = "manu">
-                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#experience">Experience</a></li>
@@ -22,31 +22,38 @@
                     </ul>
                     <a href="#" class="btn" id="change">Hire Me</a>
                 </nav>
-                <div class="hero">
-                    <div class="hero-text">
-                        <h1 id= "innerText">I'm Web Developer<br><span>From Bangladesh</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vitae facilisis lorem, hendrerit nulla.</p>
-                        <a href="#" class="btn">Learn more</a>
-                    </div>
-                    <div class="hero-img">
-                        <img src="assets/image/ph1.png" alt="Natalie Watson">
-                    </div>
-                </div>
             </div>
         </header>
 
         <!-- main content -->
+
+
     
         <main class="content">
+
+            <section id="home" class="section">
+                <div class="hero container" >
+                        <div class="hero-text">
+                            <h1 id= "innerText">I'm Web Developer<br><span>From Bangladesh</span></h1>
+                            <p>Moshiur Rahman is a passionate BSc student specializing in Computer Science and Engineering and an emerging software developer with a strong interest in building efficient and user-friendly applications. With a focus on continuous learning and practical development, actively explores modern technologies and frameworks, aiming to grow into a skilled mobile app developer. Driven by curiosity and creativity, he is dedicated to solving real-world problems through innovative software solutions.</p>
+                            <a href="#" class="btn">Learn more</a>
+                        </div>
+                        <div class="hero-img">
+                            <img src="assets/image/ph1.png" alt="Natalie Watson">
+                        </div>
+                    </div>
+            </section>
             <section id="about" class="section">
                 <div class="container">
                     <h2>About Me</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="about-content">
                         <div>
-                            <h3>Developing With a Passion While Exploring The World.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore blanditiis sequi quos beatae. Doloribus minima in voluptates accusantium voluptate.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorem, distinctio maiores aliquid!</p>
+                            <h3>Hi! I'm Moshiur Rahman, a BSc student in Computer Science and Engineering and an enthusiastic software developer. </h3>
+                            <p>I have a strong passion for creating clean, efficient, and user-friendly applications, and I’m constantly exploring new tools and technologies to expand my skills.</p>
+                            <p>Currently, I’m focusing on learning modern frameworks and development techniques to build real-world solutions. Whether it’s a mobile app, web platform, or backend system, I love turning ideas into working software.
+
+I believe in continuous learning, teamwork, and solving problems through smart code. My future goal is to become a highly skilled, creative, and professional developer who makes an impact through technology.</p>
                             <a href="#" class="btn">Contact Me</a>
                         </div>
                         <img src="https://images.unsplash.com/photo-1686984096026-23d6e82f9749?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGpvYiUyMHNlYXJjaHxlbnwwfHwwfHx8MA%3D%3D" alt="Laptop Work">
@@ -78,12 +85,30 @@
                 <div class="container">
                     <h2>Work Experience</h2>
                     <div class="experience-grid">
-                        <div class="exp-item"><strong>UI/UX Designer</strong><br>2015–2018</div>
-                        <div class="exp-item"><strong>Web Designer</strong><br>2018–2020</div>
+                        <div class="exp-item" onclick="showInfo('UI/UX Designer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>UI/UX Designer</strong><br>2015–2018</div>
+
+                            <div class="exp-item" onclick="showInfo('Modile App Designer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Modile App Designer</strong><br>2015–2018</div>
+
+                                <div class="exp-item" onclick="showInfo('Web Developer','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Web Developer</strong><br>2015–2018</div>
+
+                                    <div class="exp-item" onclick="showInfo('Marketing','UI stands for User Interface. It refers to the point of contact between a human user and a computer or device, encompassing the visual elements, layout, and interactive components that allow users to interact with and control a system.','https://plus.unsplash.com/premium_photo-1722155330821-2557249cdb52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjBpY29ufGVufDB8fDB8fHww')"><strong>Marketing</strong><br>2015–2018</div>
+
+
+
+
+
+
+<!-- 
+
+                        <div class="exp-item"><strong>Modile App Designer</strong><br>2018–2020</div>
                         <div class="exp-item"><strong>Web Developer</strong><br>2020–2023</div>
-                        <div class="exp-item"><strong>Graphic Designer</strong><br>2017–2020</div>
-                        <div class="exp-item"><strong>Marketing</strong><br>2020–Now</div>
+                        <div class="exp-item"><strong>Marketing</strong><br>2020–Now</div> -->
                     </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="" id="infoDisplay">
+
                 </div>
             </section>
 
@@ -124,151 +149,11 @@
 
         <footer>
             <div class="container">
-                <p>&copy; 2025 Natalie E. Watson</p>
-                <p>Email: natalie@example.com</p>
+                <p>&copy; 2025 Bangladesh , Dhaka</p>
+                <p>Email: moshiurr1555@example.com</p>
             </div>
         </footer>
 
 @endsection
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">🔴</div>
-                <ul class = "manu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <a href="#" class="btn" id="change">Hire Me</a>
-            </nav>
-            <div class="hero">
-                <div class="hero-text">
-                    <h1 id= "innerText">I'm Web Developer<br><span>From Bangladesh</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vitae facilisis lorem, hendrerit nulla.</p>
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-                <div class="hero-img">
-                    <img src="assets/image/ph1.png" alt="Natalie Watson">
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="about-content">
-                <div>
-                    <h3>Developing With a Passion While Exploring The World.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde labore blanditiis sequi quos beatae. Doloribus minima in voluptates accusantium voluptate.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorem, distinctio maiores aliquid!</p>
-                    <a href="#" class="btn">Contact Me</a>
-                </div>
-                <img src="https://images.unsplash.com/photo-1686984096026-23d6e82f9749?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGpvYiUyMHNlYXJjaHxlbnwwfHwwfHx8MA%3D%3D" alt="Laptop Work">
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="section">
-        <div class="container">
-            <h2>What Services I'm Providing</h2>
-            <div class="cards">
-                <div class="card">
-                    <h4>UI/UX Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
-                </div>
-                <div class="card">
-                    <h4>Digital Marketing</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
-                </div>
-                <div class="card">
-                    <h4>Web Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nihil nulla.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Work Experience</h2>
-            <div class="experience-grid">
-                <div class="exp-item"><strong>UI/UX Designer</strong><br>2015–2018</div>
-                <div class="exp-item"><strong>Web Designer</strong><br>2018–2020</div>
-                <div class="exp-item"><strong>Web Developer</strong><br>2020–2023</div>
-                <div class="exp-item"><strong>Graphic Designer</strong><br>2017–2020</div>
-                <div class="exp-item"><strong>Marketing</strong><br>2020–Now</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2>My Portfolio</h2>
-            <div class="portfolio-grid">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 1">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="Project 3">
-            </div>
-        </div>
-    </section>
-
-    <section id="clients" class="section">
-        <div class="container">
-            <h2>What My Clients Say</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
-                <div class="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
-                <div class="testimonial">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Stay In Touch</h2>
-            <p>Subscribe to get updated on upcoming projects and insights.</p>
-            <form>
-                <input type="email" placeholder="Enter your email address">
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Natalie E. Watson</p>
-            <p>Email: natalie@example.com</p>
-        </div>
-    </footer>
-
-
-
-
-</body>
-</html> -->

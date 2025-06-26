@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.6;
     background: #fff;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -90,6 +91,7 @@ nav .btn {
     margin-bottom: 100px;
     padding: 4rem 0;
     text-align: center;
+    scroll-behavior: smooth;
     /* height: 100vh; */
 }
 
@@ -140,6 +142,10 @@ nav .btn {
     padding: 1rem;
     border: 1px solid #eee;
     border-radius: 8px;
+}
+
+.exp-item:hover {
+    transform: translateY(-5px);
 }
 
 img {
